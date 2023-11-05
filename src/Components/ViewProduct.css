@@ -26,3 +26,22 @@
     width: 34vw;
     background-color: black !important;
 }
+
+.product-button{
+    width: 546px;
+}
+
+@media screen and (max-width:768px){
+    .thumbnail-img{
+        height: 300px !important;
+        width:310px !important;
+    }
+    .product-button{
+        width: 310px;
+        flex-direction: column;
+    }
+
+    .button-margin{
+        margin-top: 10px;
+    }
+}

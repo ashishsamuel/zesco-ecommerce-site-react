@@ -68,10 +68,10 @@ function ViewProduct() {
           >
             <div className='d-flex flex-column'>
               <img src={product?.thumbnail} alt="" className='thumbnail-img rounded'  />
-              <div className='d-flex justify-content-evenly mt-3' style={{width:'546px'}}>
-                <Button onClick={() => addProductToCart(product)} className='btn button-color fw-bold'><i className='fa-solid fa-cart-shopping text-warning me-2 mt-2'>
+              <div className='d-flex justify-content-evenly mt-3 product-button'>
+                <Button onClick={() => addProductToCart(product)} className='btn button-color fw-bold button-margin'><i className='fa-solid fa-cart-shopping text-warning me-2 mt-2'>
                                     </i>Add to Cart</Button>
-                <Button onClick={() => addProductToWishlist(product)} className='btn button-color fw-bold'><i className='fa-solid fa-heart text-danger ms-2 mt-1'>
+                <Button onClick={() => addProductToWishlist(product)} className='btn button-color fw-bold button-margin'><i className='fa-solid fa-heart text-danger ms-2 mt-1'>
                                     </i> Add to Wishlist</Button>
               </div>
             </div>
