@@ -1,0 +1,28 @@
+.thumbnail-img{
+    height: 400px !important;
+    width:546px !important;
+}
+
+.product-title,.product-price{
+    font-weight: 600;
+    /* line-height: 1.35; */
+}
+
+.button-color{
+    background-color: floralwhite !important;
+    border: 1px solid burlywood !important;
+    color: black !important;
+    padding: 15px !important;
+}
+
+.button-color:hover {
+    display: inline-block;
+    background-color: #0a0a0a !important;
+    border: 1px solid #1f1e1d !important;
+    color: white !important;
+}
+
+.toast-message{
+    width: 34vw;
+    background-color: black !important;
+}

@@ -1,0 +1,36 @@
+.cartContainer{
+    padding: 50px 50px;
+    background-color: white;
+}
+
+.toast-message{
+    width: 34vw;
+    background-color: black !important;
+}
+
+.product-details{
+    padding: 5px 10px;
+}
+
+.button-color{
+    background-color: floralwhite !important;
+    border: 1px solid burlywood !important;
+    color: black !important;
+    padding: 5px 15px !important;
+}
+
+.button-color:hover {
+    display: inline-block;
+    background-color: #0a0a0a !important;
+    border: 1px solid #1f1e1d !important;
+    color: white !important;
+}
+
+/* sizing */
+@media (max-width:800px) {
+    .product-col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
