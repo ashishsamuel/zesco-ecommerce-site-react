@@ -64,7 +64,7 @@ function ViewProduct() {
     <>
       <div className='container mt-5 mb-5'>
         <Row>
-          <Col sm={12} md={6} lg={6} xl={6}
+          <Col sm={12} md={12} lg={6} xl={6}
           >
             <div className='d-flex flex-column'>
               <img src={product?.thumbnail} alt="" className='thumbnail-img rounded'  />
@@ -76,7 +76,7 @@ function ViewProduct() {
               </div>
             </div>
           </Col>
-          <Col sm={12} md={6} lg={6} xl={6}
+          <Col sm={12} md={12} lg={6} xl={6}
           >
             <div>
               <h2 className='m-3 product-title'>{product?.brand}</h2>
