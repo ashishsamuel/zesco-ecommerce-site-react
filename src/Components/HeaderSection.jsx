@@ -45,7 +45,7 @@ function HeaderSection() {
 
     return (
         <>
-            <Navbar expand="lg" className="shadow nav-bgcolor">
+            <Navbar expand="lg" className="shadow nav-bgcolor navbar-style position-fixed">
                 <Container  style={{ display: 'flex', justifyContent: 'space-between' }}>
                     <Navbar.Brand>
                         <Link to={'/'} style={{ textDecoration: 'none' }}>

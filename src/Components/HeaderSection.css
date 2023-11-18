@@ -2,6 +2,12 @@
     background-color: ghostwhite !important;
 }
 
+.navbar-style{
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 0;
@@ -35,7 +41,7 @@
 }
 
 /* sizing */
-@media (max-width:800px) {
+@media (max-width:992px) {
 
     .link-style {
         width: 150px;
@@ -52,3 +58,10 @@
         width: 465px;
     }
 }
+
+/* @media (max-width:600px) {
+    .search-field{
+        margin-top: 20px;
+        width: 350px;
+    }    
+} */

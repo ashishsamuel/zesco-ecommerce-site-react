@@ -22,12 +22,12 @@ function Home() {
         <>
             <div className='homeContainer'>
                 <Row style={{marginBottom:'6rem'}}>
-                <Col sm={12} md={6} lg={6} xl={6}>
+                <Col sm={12} md={12} lg={6} xl={6}>
                         <div className='landingImage'>
                             <img className='landing-img' src="/images/offer-image.png" alt="" />
                         </div>
                     </Col>
-                    <Col sm={12} md={6} lg={6} xl={6}>
+                    <Col sm={12} md={12} lg={6} xl={6}>
                         <div data-aos="fade-up-right" className='landingContent'>
                             <div className='landingTitle'>
                                 Winter Clothing New Arrivals
